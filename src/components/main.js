@@ -48,8 +48,6 @@ const Main = () => {
                                     </ul>
                                 </div>
                             </div>
-
-                            {/* <div data-aos="fade-left" className="w-1/2 flex flex-col items-center"> */}
                             <div
                                 data-aos="fade-left"
                                 className="sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col items-center  border-solid border-green-500 border-2 rounded-lg relative  bg-gradient-to-bl from-emerald-50/10 via-emerald-100/5 to-emerald-300/30"
