@@ -7,8 +7,8 @@ const Projects = () => {
     return (
         <div>
             <WebsiteProjects />
-            <BlockchainProjects />
-            <DesignProject />
+            {/* <BlockchainProjects />
+            <DesignProject /> */}
         </div>
     );
 };
