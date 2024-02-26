@@ -1,0 +1,240 @@
+.costomFont {
+    font-family: "Bruno Ace SC", cursive;
+}
+
+.costomFont2 {
+    /* font-family: 'Bruno Ace SC', cursive; */
+    font-family: "Abril Fatface", sans-serif;
+}
+
+.nav {
+    text-shadow: 2px 2px 0 rgb(255, 255, 255), 2px -2px 0 rgba(241, 126, 184, 1),
+        -2px 2px 0 rgba(241, 126, 184, 1), -2px -2px 0 rgba(241, 126, 184, 1),
+        2px 0px 0 rgba(241, 126, 184, 1), 0px 2px 0 rgba(241, 126, 184, 1),
+        -2px 0px 0 rgba(241, 126, 184, 1), 0px -2px 0 rgba(241, 126, 184, 1);
+}
+
+#text {
+    animation: myfirst 0.25s 2;
+    animation-delay: 2s;
+    /* animation-direction: alternate-reverse; */
+}
+
+#bannerImg {
+    animation: bannerImg 1.5s 1;
+}
+
+#skill {
+    animation: skillScroll 5s infinite;
+}
+
+@keyframes myfirst {
+    /* 0%   {color:red;} */
+    48% {
+        text-shadow: 4px 4px 7px rgba(255, 40, 192, 1);
+        color: rgba(255, 40, 192, 1);
+    }
+
+    50% {
+        color: rgb(156 163 175);
+        text-shadow: none;
+    }
+    /* 75%  {text-shadow: 4px 4px 7px rgba(255,40,192,1);} */
+    /* 100% {color:red; left: 0px; top: 0px;} */
+}
+
+@keyframes bannerImg {
+    0% {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    /* 100%{ position: relative; top: -11px; left: -19px;} */
+}
+
+@keyframes skillScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.sun {
+    /* z-index: ; */
+
+    -webkit-box-shadow: 0px 0px 138px 45px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 138px 45px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 38px 46px rgba(214, 31, 103, 1);
+}
+.sun2 {
+    -webkit-box-shadow: 0px 0px 138px 45px rgba(5, 122, 85, 1);
+    -moz-box-shadow: 0px 0px 138px 45px rgba(14, 159, 110, 1);
+    box-shadow: 0px 0px 38px 46px rgba(16, 185, 129, 1);
+}
+
+.sun3 {
+    -webkit-box-shadow: 0px 0px 138px 45px rgba(5, 122, 85, 1);
+    -moz-box-shadow: 0px 0px 138px 45px rgba(14, 159, 110, 1);
+    box-shadow: 0px 0px 38px 46px rgba(227, 160, 8, 1);
+}
+
+.sun4 {
+    -webkit-box-shadow: 0px 0px 138px 45px rgba(5, 122, 85, 1);
+    -moz-box-shadow: 0px 0px 138px 45px rgba(14, 159, 110, 1);
+    box-shadow: 0px 0px 38px 46px rgba(56, 189, 248, 1);
+}
+
+.buttonAnimation {
+    animation: button 3s infinite;
+}
+
+.buttonCircle {
+    animation: buttonCircle 3s linear infinite;
+}
+
+@keyframes button {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: red;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@keyframes buttonCircle {
+    0% {
+        background: white;
+    }
+    50% {
+        background: red;
+    }
+
+    100% {
+        background: white;
+    }
+}
+
+.projectCard {
+    width: 340px;
+    height: 470px;
+}
+
+.blockchainProjectCard {
+    width: 340px;
+    height: 280px;
+}
+
+.rotate-border1 {
+    top: -50%;
+    left: -50%;
+    /* width: 300px;
+  height: 300px; */
+    transform-origin: bottom right;
+    /* z-index: +4; */
+    animation: rotation 8s linear infinite;
+}
+
+.rotate-border2 {
+    top: 50%;
+    left: 50%;
+    /* width: 300px;
+  height: 300px; */
+    transform-origin: top left;
+    /* transform: rotate(); */
+    /* z-index: +4; */
+    animation: rotation 8s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+:root {
+    --gray-50: hsl(204, 45%, 98%);
+    --gray-600: hsl(218, 17%, 35%);
+    --gray-700: hsl(218, 23%, 23%);
+    --gray-800: HSL(220, 26%, 14%);
+    --gray-900: hsl(230, 21%, 11%);
+    --gap: 2rem;
+    --duration: 27s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
+}
+body {
+    font-family: "Montserrat", system-ui, sans-serif;
+}
+
+.marquee-group {
+    /* flex-shrink: 0; */
+    /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%; */
+    animation: scroll-left var(--duration) linear infinite;
+}
+.marquee-tag-wrapper {
+    text-decoration: none;
+    color: var(--gray-50);
+
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    padding: 0.625rem 1.5rem 0.625rem 0.625rem;
+    background-color: var(--gray-700);
+    border-radius: 9999px;
+}
+.marquee-tag-wrapper:hover {
+    background-color: var(--gray-800);
+}
+@media (max-width: 768px) {
+    .marquee-tag-wrapper {
+        text-decoration: none;
+        color: var(--gray-50);
+
+        font-size: 0.75rem; /* 12px */
+        line-height: 0.5rem;
+        font-weight: 300;
+        padding: 0.25rem 0.65rem 0.25rem 0.25rem;
+        background-color: var(--gray-700);
+        border-radius: 9999px;
+    }
+}
+/* .marquee-tag-container {
+  display: flex;
+  align-items: center;
+} */
+.marquee-tag-icon {
+    /* padding: 1.25rem;
+  background-color: var(--gray-600); */
+    /* border-radius: 9999px; */
+}
+.marquee-tag {
+    margin-left: 0.75rem;
+    /* color: ; */
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(var(--scroll-start));
+    }
+    to {
+        transform: translateX(var(--scroll-end));
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .marquee-group {
+        animation-play-state: paused;
+    }
+}
