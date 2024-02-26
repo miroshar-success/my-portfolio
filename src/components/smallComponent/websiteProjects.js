@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 
-import dnewsImg from "../images/dnewsImage.png";
-import AnnonomousChat from "../images/annonomousChat.png";
-import remoteJobImg from "../images/remoteJobImg.png";
-import portfolio from "../images/portfolio.png";
-import horsecare from "../images/horsecare.png";
+import swimming from "../images/swimming.png";
+import hotelRoomBookingSystem from "../images/hotel-room-booking-system.png";
+import flyingCarpet from "../images/flying-carpet.png";
+import bullionbrother from "../images/bullionbrother.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -42,37 +41,37 @@ const WebsiteProjects = () => {
               {" "}
               <img
                 className="rounded-t-lg cursor-pointer"
-                src={horsecare}
+                src={swimming}
                 alt="website_image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                  Horse Care
+                  Swimming School Management
                 </h5>
                 <p className="mb-3 font-normal text-gray-500">
-                  I developed a Horse Care Professional marketplace using React,
-                  TypeScript, Shadcn UI, Stripe Payment gateway, Express.js,
-                  Auth0, and Supabase database, ensuring a robust platform for
+                  I developed a Swimming School Management Website using React,
+                  TypeScript, Material UI, Scaffholhub ,Stripe Payment gateway, Express.js,
+                  Auth_JWT, and MongoDB, ensuring a robust platform for
                   seamless services and transactions.
                 </p>
                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                   <a
-                    href="https://github.com/DIWAKARKASHYAP/test-assignment"
+                    href="https://github.com/OskarMast/swimming-school-management"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                   >
                     View Code
                   </a>
-                  <a
-                    href="https://test-assignment-i5mu.vercel.app/"
+                  {/* <a
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                     className="buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                   >
                     <span className="buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -90,38 +89,36 @@ const WebsiteProjects = () => {
             <div className="bg-gray-950 rounded-md">
               <img
                 className="rounded-t-lg cursor-pointer"
-                src={AnnonomousChat}
+                src={hotelRoomBookingSystem}
                 alt="website_image"
               />
 
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                  Anonymous Chat
+                  Hotel Room Booking System
                 </h5>
                 <p className="mb-3 font-normal text-gray-500">
-                  Our website is designed to provide a secure and anonymous chat
-                  platform for two individuals. You can access your chat using a
-                  unique chat address, which is generated when you initiate a
-                  conversation. However, it's import
+                  As a full stack developer. I developed a Swimming School Management Website using React,
+                  TypeScript, Node.js, Express.js, MongoDB, Redux.js, Ant Design, TailwindCSS, and Next.js from Figma Design.{" "}
                 </p>
                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                   <a
-                    href="https://github.com/DIWAKARKASHYAP/AnonymousChat"
+                    href="https://github.com/OskarMast/hotel-room-booking-system"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     View Code
                   </a>
-                  <a
-                    href="https://anonymous-chat-pi.vercel.app/"
+                  {/* <a
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                     className="buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                   >
                     <span className="buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -140,29 +137,26 @@ const WebsiteProjects = () => {
               {" "}
               <img
                 className="rounded-t-lg cursor-pointer"
-                src={remoteJobImg}
+                src={flyingCarpet}
                 alt="website_image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                  Blockchain Remote Job
+                  Flying Carpet Inbox
                 </h5>
                 <p className="mb-3 font-normal text-gray-500">
-                  Our blockchain remote job platform is built on Next.js,
-                  Tailwind CSS, MUI, and Flowbit CSS. Firebase is utilized as
-                  the reliable database, ensuring seamless functionality and
-                  data management.{" "}
+                As a full stack developer, I successfully engineered a comprehensive WhatsApp inbox utilizing a sophisticated tech stack comprising React for dynamic front-end rendering, Node.js and Express.js, MongoDB and WhatsApp API for real-time messaging.{" "}
                 </p>
                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                   <a
-                    href="https://github.com/DIWAKARKASHYAP/job-portal"
+                    href="https://github.com/OskarMast/flying-carpet-inbox"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg focus:right-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     View Code
                   </a>
-                  <a
+                  {/* <a
                     href="https://www.blockchain-remote-job.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -170,7 +164,7 @@ const WebsiteProjects = () => {
                   >
                     <span className="buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -188,29 +182,26 @@ const WebsiteProjects = () => {
             <div className="bg-gray-950 rounded-md">
               <img
                 className="rounded-t-lg cursor-pointer"
-                src={portfolio}
+                src={bullionbrother}
                 alt="website_image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
-                  This Portfolio
+                  BullionBrother
                 </h5>
                 <p className="mb-3 font-normal text-gray-500">
-                  This portfolio, crafted with React.js, features seamless
-                  animations using the AOS library. Styled with Tailwind CSS and
-                  MUI, it offers a visually appealing and interactive platform
-                  to showcase creative works and skills..
+                As an integral part of my work as a full-stack developer, I integrated electronic payment methods, including Payoneer, PayPal, e-check, and cryptocurrency with pre-authorization, for an e-commerce site where marketing plays a crucial role.
                 </p>
                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                   <a
-                    href="https://github.com/DIWAKARKASHYAP/diwakar-portfolio"
+                    href="https://github.com/OskarMast/bullionbrother"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     View Code
                   </a>
-                  <a
+                  {/* <a
                     href="https://diwakar-portfolio.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -218,7 +209,7 @@ const WebsiteProjects = () => {
                   >
                     <span className="buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

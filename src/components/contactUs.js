@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsTelegram, BsDiscord, BsSkype } from "react-icons/bs";
 import { ImMail4 } from "react-icons/im";
 import { FaTwitterSquare } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const ContactUs = () => {
                     </h1>
                 </div>
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                    <div className="md:flex items-center justify-center">
+                    {/* <div className="md:flex items-center justify-center">
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
@@ -92,23 +92,23 @@ const ContactUs = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className=" max-w-xl m-auto text-center mt-5 max text-slate-600">
                         I built this entire website from scratch, all by myself{" "}
                     </div>
                     <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
                     <div className="flex items-center justify-center">
                         <div className="flex  mt-4 space-x-6 justify-center sm:mt-0 ">
-                            <a
+                            {/* <a
                                 href="https://www.linkedin.com/in/diwakar-kashyap-317a5223b/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500  hover:text-white"
                             >
                                 <BsLinkedin className=" w-10 h-10 lg:w-14 lg:h-14" />
-                            </a>
+                            </a> */}
                             <a
-                                href="mailto:diwakarkashyapdev@gmail.com"
+                                href="mailto:oskarmast9436@gmail.com"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
@@ -116,7 +116,7 @@ const ContactUs = () => {
                                 <ImMail4 className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
                             <a
-                                href="https://github.com/DIWAKARKASHYAP"
+                                href="https://github.com/OskarMast"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
@@ -124,7 +124,7 @@ const ContactUs = () => {
                                 <BsGithub className="w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
                             <a
-                                href="https://t.me/didk9675"
+                                href="https://t.me/devking9436"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
@@ -132,12 +132,20 @@ const ContactUs = () => {
                                 <BsTelegram className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
                             <a
-                                href="https://twitter.com/Diwakar_766"
+                                href="https://discord.com/users/thomas#8877"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
                             >
-                                <FaTwitterSquare className=" w-10 h-10 lg:w-14 lg:h-14" />
+                                <BsDiscord className=" w-10 h-10 lg:w-14 lg:h-14" />
+                            </a>
+                            <a
+                                href="skype:live:.cid.448fee86149588f6?chat"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-gray-500   hover:text-white"
+                            >
+                                <BsSkype className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
                         </div>
                     </div>
