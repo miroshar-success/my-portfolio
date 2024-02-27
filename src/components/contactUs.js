@@ -27,7 +27,7 @@ const ContactUs = () => {
                                 <ul className="text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <a
-                                            href="https://dev.to/diwakarkashyap"
+                                            href="https://dev.to/OskarMast"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="hover:underline"
@@ -37,7 +37,7 @@ const ContactUs = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://diwakarkashyap.hashnode.dev/"
+                                            href="https://OskarMast.hashnode.dev/"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="hover:underline"
@@ -54,7 +54,7 @@ const ContactUs = () => {
                                 <ul className="text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <a
-                                            href="https://github.com/DIWAKARKASHYAP"
+                                            href="https://github.com/OskarMast"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="hover:underline "
@@ -64,7 +64,7 @@ const ContactUs = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://twitter.com/Diwakar_766"
+                                            href="https://twitter.com/Oskar_766"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="hover:underline"
@@ -100,7 +100,7 @@ const ContactUs = () => {
                     <div className="flex items-center justify-center">
                         <div className="flex  mt-4 space-x-6 justify-center sm:mt-0 ">
                             {/* <a
-                                href="https://www.linkedin.com/in/diwakar-kashyap-317a5223b/"
+                                href="https://www.linkedin.com/in/Oskar-Mast-317a5223b/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500  hover:text-white"
