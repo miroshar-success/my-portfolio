@@ -11,7 +11,7 @@ const Education = () => {
           </span>
         </h1>
       </div>
-      <div className=" mt-10">
+      <div className="mt-10 flex flex-col items-center">
         <h3 className=" text-3xl font-bold text-gray-400">
           {" "}
           Bachelor of Computer Science
