@@ -35,7 +35,7 @@ const Main = () => {
                     <div className=" max-w-full  m-auto overflow-hidden    ">
                         {/* marquee 👇 */}
                         <div className=" flex gap-7 md:gap-12   bg-gradient-to-t from-black via-slate-700 to-black text-pink-500 ">
-                            <div className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full  ">
+                            <div className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full">
                                 {" "}
                                 <div className="marquee-tag-wrapper ">
                                     <div className="flex items-center">
@@ -147,7 +147,7 @@ const Main = () => {
                                 </div>{" "}
                             </div>
                             <div
-                                aria-hidden="true"
+                                // aria-hidden="true"
                                 className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full"
                             >
                                 {" "}
