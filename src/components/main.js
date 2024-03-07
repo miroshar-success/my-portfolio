@@ -147,7 +147,7 @@ const Main = () => {
                                 </div>{" "}
                             </div>
                             <div
-                                // aria-hidden="true"
+                                aria-hidden="true"
                                 className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full"
                             >
                                 {" "}
