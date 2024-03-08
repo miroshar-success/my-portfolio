@@ -4,15 +4,11 @@ import {
     DiCss3,
     DiJavascript,
     DiReact,
-    DiNodejsSmall,
 } from "react-icons/di";
 import {
     SiNextdotjs,
     SiNodedotjs,
-    SiCodeigniter,
-    SiCanva,
-    SiSolidity,
-    SiEthereum,
+    SiCodeigniter
 } from "react-icons/si";
 import { FaHardHat, FaGithub, FaLaravel, FaWordpress } from "react-icons/fa";
 import AOS from "aos";
