@@ -258,6 +258,234 @@ const Main = () => {
                             </div>
                         </div>
 
+                        <div className=" flex gap-7 mt-[20px] md:gap-12   bg-gradient-to-t from-black via-slate-700 to-black text-pink-500 ">
+                            <div className="right-marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full">
+                                {" "}
+                                <div className="marquee-tag-wrapper ">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiHtml5 className=" h-10 w-10 " />
+                                        </div>
+                                        <span className="marquee-tag ">
+                                            HTML
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiCss3 className="h-10 w-10 " />
+                                        </div>
+                                        <span className="marquee-tag">CSS</span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiJavascript className="h-10 w-10 " />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Javascript
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiReact className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            React.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiNextdotjs className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Next.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiNodedotjs className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Node.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaLaravel className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Laravel
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiCodeigniter className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Codegniter
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaWordpress className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Wordpress
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaGithub className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            github
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                            </div>
+                            <div
+                                aria-hidden="true"
+                                className="right-marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full"
+                            >
+                                {" "}
+                                <div className="marquee-tag-wrapper  ">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiHtml5 className="h-10 w-10 " />
+                                        </div>
+                                        <span className=" marquee-tag">
+                                            HTML
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiCss3 className="h-10 w-10 " />
+                                        </div>
+                                        <span className="marquee-tag">CSS</span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiJavascript className="h-10 w-10 " />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Javascript
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <DiReact className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            React.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiNextdotjs className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Next.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiNodedotjs className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Node.js
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaLaravel className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Laravel
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <SiCodeigniter className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Codegniter
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaWordpress className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            Wordpress
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                                <div className="marquee-tag-wrapper">
+                                    <div className="flex items-center">
+                                        {" "}
+                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
+                                            <FaGithub className="h-10 w-10" />
+                                        </div>
+                                        <span className="marquee-tag">
+                                            github
+                                        </span>{" "}
+                                    </div>
+                                </div>{" "}
+                            </div>
+                        </div>
+
                         <div className=" max-w-7xl m-auto sm:flex  mt-14  ">
                             <div
                                 data-aos="fade-right"
