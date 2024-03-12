@@ -12,34 +12,34 @@ const Company = () => {
         ) => (
           <div className=" " key={`experience-${idx}`}>
             <div className=" mt-10">
-              <h3 className=" text-3xl font-bold text-gray-400"> {company}</h3>
+              <h2 className=" text-3xl font-bold text-gray-400"> {company}</h2>
               <div className=" flex flex-col gap-4 mt-4 ml-4">
                 <div>
-                  <h4>
+                  <h3>
                     <span className="font-bold text-lg text-gray-400">
                       Role:
                     </span>{" "}
-                  </h4>
+                  </h3>
                   {role}
                 </div>
                 <div className=" ">
-                  <h4>
+                  <h3>
                     <span className="font-bold text-lg text-gray-400">
                       Location :
                     </span>{" "}
-                  </h4>
+                  </h3>
                   {location}
                 </div>
                 <div>
-                  <h4><span className="font-bold text-lg text-gray-400">
+                  <h3><span className="font-bold text-lg text-gray-400">
                     Duration :
-                  </span>{" "}</h4>
+                  </span>{" "}</h3>
                   {duration}
                 </div>
                 <div>
-                  <h4><span className="font-bold text-lg text-gray-400">
+                  <h3><span className="font-bold text-lg text-gray-400">
                     Tech Stack :
-                  </span>{" "}</h4>
+                  </span>{" "}</h3>
                   {tech_stack.map(({ name, bg_color, text_color }, idk) => (
                     <span
                       key={`tech-stack-${idk}`}
@@ -50,9 +50,9 @@ const Company = () => {
                   ))}
                 </div>
                 <div>
-                  <h4 className=" font-bold text-lg text-gray-400">
+                  <h3 className=" font-bold text-lg text-gray-400">
                     Responsibilities and Achievements
-                  </h4>
+                  </h3>
                   <ul className=" list-disc p-5 pt-2">
                     {responsibilities.map((item, rid) => (
                       <li key={`responsibilities-${rid}`}>{item} </li>

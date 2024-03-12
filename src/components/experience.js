@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Freelancing from "./smallComponent/experience/freelancing";
 import Company from "./smallComponent/experience/company";
 
 const Experience = () => {
@@ -24,7 +23,7 @@ const Experience = () => {
                     </span>
                 </h1>
             </div>
-            <div className=" mx-5 sm:mx-20 text-gray-500">
+            <div className=" mx-5 sm:mx-20 text-[#9197A1]">
                 {/* <Freelancing /> */}
                 <Company />
             </div>

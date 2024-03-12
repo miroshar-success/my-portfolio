@@ -12,10 +12,10 @@ const Education = () => {
         </h1>
       </div>
       <div className="mt-10 flex flex-col items-center">
-        <h3 className=" text-3xl font-bold text-gray-400">
+        <h2 className=" text-3xl font-bold text-gray-400">
           {" "}
           Bachelor of Computer Science
-        </h3>
+        </h2>
         <div className=" flex flex-col gap-4 mt-4 ml-4">
           <div>
             <span className="font-bold text-lg text-gray-400">University:</span>{" "}
