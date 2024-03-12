@@ -43,7 +43,7 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={swimming}
-                alt="website_image"
+                alt="swimming school project image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
@@ -91,7 +91,7 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={hotelRoomBookingSystem}
-                alt="website_image"
+                alt="Hotel Room Booking System project image"
               />
 
               <div className="p-5">
@@ -141,7 +141,7 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={flyingCarpet}
-                alt="website_image"
+                alt="flyingcarpet project image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
@@ -190,7 +190,7 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={bullionbrother}
-                alt="website_image"
+                alt="BullionBrother project image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
@@ -238,7 +238,7 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={brokerbewertungen}
-                alt="website_image"
+                alt="brokerbewertungen project image"
               />
               <div className="p-5">
                 <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">

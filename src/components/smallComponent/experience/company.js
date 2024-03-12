@@ -15,25 +15,31 @@ const Company = () => {
               <h3 className=" text-3xl font-bold text-gray-400"> {company}</h3>
               <div className=" flex flex-col gap-4 mt-4 ml-4">
                 <div>
-                  <span className="font-bold text-lg text-gray-400">Role:</span>{" "}
+                  <h4>
+                    <span className="font-bold text-lg text-gray-400">
+                      Role:
+                    </span>{" "}
+                  </h4>
                   {role}
                 </div>
                 <div className=" ">
-                  <span className="font-bold text-lg text-gray-400">
-                    Location :
-                  </span>{" "}
+                  <h4>
+                    <span className="font-bold text-lg text-gray-400">
+                      Location :
+                    </span>{" "}
+                  </h4>
                   {location}
                 </div>
                 <div>
-                  <span className="font-bold text-lg text-gray-400">
+                  <h4><span className="font-bold text-lg text-gray-400">
                     Duration :
-                  </span>{" "}
+                  </span>{" "}</h4>
                   {duration}
                 </div>
                 <div>
-                  <span className="font-bold text-lg text-gray-400">
+                  <h4><span className="font-bold text-lg text-gray-400">
                     Tech Stack :
-                  </span>{" "}
+                  </span>{" "}</h4>
                   {tech_stack.map(({ name, bg_color, text_color }, idk) => (
                     <span
                       key={`tech-stack-${idk}`}

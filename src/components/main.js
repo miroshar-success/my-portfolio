@@ -24,10 +24,10 @@ const Main = () => {
 
             <div>
                 <div className=" w-full overflow-hidden  content-center grid  ">
-                    <h2 className="title mb-8 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl  text-gray-200  mt-10 ">
+                    <h1 className="title mb-8 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl  text-gray-200  mt-10 ">
                         {" "}
                         What I Know
-                    </h2>
+                    </h1>
                     <div className=" max-w-full  m-auto overflow-hidden    ">
                         {/* marquee 👇 */}
                         <div className=" flex gap-7 md:gap-12   bg-gradient-to-t from-black via-slate-700 to-black text-pink-500 ">
@@ -265,7 +265,7 @@ const Main = () => {
                             >
                                 <div className=" sun bg-pink-600 opacity-95 h-11 w-11 rounded-full border-4 border-pink-600 absolute left-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    In frontend
+                                    <h3>In frontend</h3>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
@@ -287,7 +287,7 @@ const Main = () => {
                             >
                                 <div className=" sun2 bg-emerald-500 opacity-95 h-11 w-11 rounded-full absolute right-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    In Backend
+                                    <h3>In Backend</h3>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
@@ -310,7 +310,7 @@ const Main = () => {
                             >
                                 <div className=" sun4 bg-sky-400 opacity-95 h-11 w-11 rounded-full  absolute left-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    In API
+                                    <h3>In API</h3>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
@@ -330,7 +330,7 @@ const Main = () => {
                             >
                                 <div className=" sun3 bg-yellow-400 opacity-95 h-11 w-11 rounded-full  absolute right-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    some Knowledge
+                                    <h3>some Knowledge</h3>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
