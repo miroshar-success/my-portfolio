@@ -43,13 +43,13 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={swimming}
-                alt="swimming school project image"
+                alt="swimming school project"
               />
               <div className="p-5">
-                <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
+                <h2 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
                   Swimming School Management
-                </h5>
-                <p className="mb-3 font-normal text-gray-500">
+                </h2>
+                <p className="mb-3 font-normal text-[#9399A4]">
                   I developed a Swimming School Management Website using React,
                   TypeScript, Material UI, Scaffholhub ,Stripe Payment gateway,
                   Express.js, Auth_JWT, and MongoDB, ensuring a robust platform
@@ -91,14 +91,14 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={hotelRoomBookingSystem}
-                alt="Hotel Room Booking System project image"
+                alt="Hotel Room Booking System project"
               />
 
               <div className="p-5">
-                <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
+                <h2 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
                   Hotel Room Booking System
-                </h5>
-                <p className="mb-3 font-normal text-gray-500">
+                </h2>
+                <p className="mb-3 font-normal text-[#9399A4]">
                   As a full stack developer. I developed a Swimming School
                   Management Website using React, TypeScript, Node.js,
                   Express.js, MongoDB, Redux.js, Ant Design, TailwindCSS, and
@@ -141,13 +141,13 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={flyingCarpet}
-                alt="flyingcarpet project image"
+                alt="flyingcarpet project"
               />
               <div className="p-5">
-                <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
+                <h2 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
                   Flying Carpet Inbox
-                </h5>
-                <p className="mb-3 font-normal text-gray-500">
+                </h2>
+                <p className="mb-3 font-normal text-[#9399A4]">
                   As a full stack developer, I successfully engineered a
                   comprehensive WhatsApp inbox utilizing a sophisticated tech
                   stack comprising React for dynamic front-end rendering,
@@ -190,13 +190,13 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={bullionbrother}
-                alt="BullionBrother project image"
+                alt="BullionBrother project"
               />
               <div className="p-5">
-                <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
+                <h2 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
                   BullionBrother
-                </h5>
-                <p className="mb-3 font-normal text-gray-500">
+                </h2>
+                <p className="mb-3 font-normal text-[#9399A4]">
                   As an integral part of my work as a full-stack developer, I
                   integrated electronic payment methods, including Payoneer,
                   PayPal, e-check, and cryptocurrency with pre-authorization,
@@ -238,13 +238,13 @@ const WebsiteProjects = () => {
               <img
                 className="rounded-t-lg cursor-pointer"
                 src={brokerbewertungen}
-                alt="brokerbewertungen project image"
+                alt="brokerbewertungen project"
               />
               <div className="p-5">
-                <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
+                <h2 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
                   broker-bewertungen
-                </h5>
-                <p className="mb-3 font-normal text-gray-500">
+                </h2>
+                <p className="mb-3 font-normal text-[#9399A4]">
                   As a full-stack developer, I developed project from scratch.
                   Original project was built by using Laravel. I used React,
                   Node, MySQL, Material UI, and Express to deliver successful

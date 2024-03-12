@@ -1,7 +1,6 @@
 import React from "react";
-import { BsGithub, BsLinkedin, BsTelegram, BsDiscord, BsSkype } from "react-icons/bs";
+import { BsGithub, BsTelegram, BsDiscord, BsSkype } from "react-icons/bs";
 import { ImMail4 } from "react-icons/im";
-import { FaTwitterSquare } from "react-icons/fa";
 
 const ContactUs = () => {
     return (
@@ -112,6 +111,7 @@ const ContactUs = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
+                                aria-label="Email Contact"
                             >
                                 <ImMail4 className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
@@ -120,6 +120,7 @@ const ContactUs = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
+                                aria-label="Github Connect"
                             >
                                 <BsGithub className="w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
@@ -128,6 +129,7 @@ const ContactUs = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
+                                aria-label="Telegram Chat"
                             >
                                 <BsTelegram className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
@@ -136,6 +138,7 @@ const ContactUs = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
+                                aria-label="Discord Chat"
                             >
                                 <BsDiscord className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
@@ -144,6 +147,7 @@ const ContactUs = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
+                                aria-label="Skype Chat"
                             >
                                 <BsSkype className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
