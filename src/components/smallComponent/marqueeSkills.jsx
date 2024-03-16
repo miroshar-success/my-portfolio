@@ -45,6 +45,7 @@ const MarqueeSkills = ({ skills, direction = "left" }) => {
             </div>
           );
         })}
+
       </div>
     </div>
   );
