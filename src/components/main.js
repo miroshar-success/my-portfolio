@@ -1,18 +1,10 @@
 import React, { useEffect } from "react";
-import {
-    DiHtml5,
-    DiCss3,
-    DiJavascript,
-    DiReact,
-} from "react-icons/di";
-import {
-    SiNextdotjs,
-    SiNodedotjs,
-    SiCodeigniter
-} from "react-icons/si";
-import { FaGithub, FaLaravel, FaWordpress } from "react-icons/fa";
+import { frontendSkills, backendSkills, apis, someKnowledge } from "./infos/SkillSets";
+import MarqueeSkills from "./smallComponent/marqueeSkills";
+import { skillsets } from "./infos/MarqueeSkills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 const Main = () => {
     useEffect(() => {
@@ -30,233 +22,7 @@ const Main = () => {
                     </h1>
                     <div className=" max-w-full  m-auto overflow-hidden    ">
                         {/* marquee 👇 */}
-                        <div className=" flex gap-7 md:gap-12   bg-gradient-to-t from-black via-slate-700 to-black text-pink-500 ">
-                            <div className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full">
-                                {" "}
-                                <div className="marquee-tag-wrapper ">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiHtml5 className=" h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag ">
-                                            HTML
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiCss3 className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">CSS</span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiJavascript className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Javascript
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiReact className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            React.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNextdotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Next.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNodedotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Node.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaLaravel className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Laravel
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiCodeigniter className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Codegniter
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaWordpress className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Wordpress
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaGithub className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            github
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                            </div>
-                            <div
-                                aria-hidden="true"
-                                className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full"
-                            >
-                                {" "}
-                                <div className="marquee-tag-wrapper  ">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiHtml5 className="h-10 w-10 " />
-                                        </div>
-                                        <span className=" marquee-tag">
-                                            HTML
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiCss3 className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">CSS</span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiJavascript className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Javascript
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiReact className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            React.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNextdotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Next.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNodedotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Node.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaLaravel className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Laravel
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiCodeigniter className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Codegniter
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaWordpress className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Wordpress
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaGithub className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            github
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                            </div>
-                        </div>
+                       <MarqueeSkills skills={skillsets} />
 
                         <div className="max-w-7xl m-auto sm:flex mt-14">
                             <div
@@ -265,17 +31,15 @@ const Main = () => {
                             >
                                 <div className="sun bg-pink-600 opacity-95 h-11 w-11 rounded-full border-4 border-pink-600 absolute left-0 top-0"></div>
                                 <div className="m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    <h2>In frontend</h2>
+                                    <h2>{frontendSkills.title}</h2>
                                 </div>
                                 <div>
                                     <ul className="mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400">
-                                        <li>JavaScript</li>
-                                        <li>TypeScript</li>
-                                        <li>Bootstrap</li>
-                                        <li>Tailwind css</li>
-                                        <li>MUI</li>
-                                        <li>React.js</li>
-                                        <li>Next.js</li>
+                                        {frontendSkills.skills.map(
+                                            (item, idx) => (
+                                                <li key={idx}>{item}</li>
+                                            )
+                                        )}
                                     </ul>
                                 </div>
                             </div>
@@ -287,17 +51,14 @@ const Main = () => {
                             >
                                 <div className="sun2 bg-emerald-500 opacity-95 h-11 w-11 rounded-full absolute right-0 top-0"></div>
                                 <div className="m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    <h2>In Backend</h2>
+                                    <h2>{backendSkills.title}</h2>
                                 </div>
                                 <div>
                                     <ul className="mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400">
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>PHP</li>
-                                        <li>MySQL</li>
-                                        <li>MongoDB</li>
-                                        <li>MSSQL</li>
-                                        <li>PostgreSQL</li>
+                                        {backendSkills.skills.map((item, idx) => (
+                                            <li key={idx}>{item}</li>
+                                        ))}
+
                                     </ul>
                                 </div>
                             </div>
@@ -310,16 +71,13 @@ const Main = () => {
                             >
                                 <div className="sun4 bg-sky-400 opacity-95 h-11 w-11 rounded-full  absolute left-0 top-0"></div>
                                 <div className="m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    <h2>In API</h2>
+                                    <h2>{apis.title}</h2>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
-                                        <li>Whatsapp API</li>
-                                        <li>PayPal API</li>
-                                        <li>Authorize.Net API</li>
-                                        <li>Stripe API</li>
-                                        <li>SendGrid API</li>
-                                        <li>RESTful API</li>
+                                        {apis.skills.map((item, idx)=> (
+                                            <li key={idx}>{item}</li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
@@ -330,248 +88,19 @@ const Main = () => {
                             >
                                 <div className=" sun3 bg-yellow-400 opacity-95 h-11 w-11 rounded-full  absolute right-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
-                                    <h2>some Knowledge</h2>
+                                    <h2>{someKnowledge.title}</h2>
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
-                                        <li>Git</li>
-                                        <li>Docker</li>
-                                        <li>CI/CD</li>
-                                        <li>XDdesign</li>
-                                        <li>Figma</li>
-                                        <li>Web socket</li>
+                                        {someKnowledge.skills.map((item, idx)=>(
+                                            <li key={idx}>{item}</li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div className=" flex gap-7 mt-[20px] md:gap-12   bg-gradient-to-t from-black via-slate-700 to-black text-pink-500 ">
-                            <div className="right-marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full">
-                                {" "}
-                                <div className="marquee-tag-wrapper ">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiHtml5 className=" h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag ">
-                                            HTML
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiCss3 className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">CSS</span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiJavascript className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Javascript
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiReact className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            React.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNextdotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Next.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNodedotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Node.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaLaravel className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Laravel
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiCodeigniter className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Codegniter
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaWordpress className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Wordpress
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaGithub className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            github
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                            </div>
-                            <div
-                                aria-hidden="true"
-                                className="right-marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full"
-                            >
-                                {" "}
-                                <div className="marquee-tag-wrapper  ">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiHtml5 className="h-10 w-10 " />
-                                        </div>
-                                        <span className=" marquee-tag">
-                                            HTML
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiCss3 className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">CSS</span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiJavascript className="h-10 w-10 " />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Javascript
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <DiReact className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            React.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNextdotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Next.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiNodedotjs className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Node.js
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaLaravel className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Laravel
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <SiCodeigniter className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Codegniter
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaWordpress className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            Wordpress
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                                <div className="marquee-tag-wrapper">
-                                    <div className="flex items-center">
-                                        {" "}
-                                        <div className=" w-10 h-10 cont bg-slate-600 rounded-full">
-                                            <FaGithub className="h-10 w-10" />
-                                        </div>
-                                        <span className="marquee-tag">
-                                            github
-                                        </span>{" "}
-                                    </div>
-                                </div>{" "}
-                            </div>
-                        </div>
+                        <MarqueeSkills skills={skillsets} direction="right" />
                     </div>
                 </div>
             </div>
