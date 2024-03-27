@@ -2,7 +2,7 @@ import React from "react";
 
 const Section = () => {
   return (
-    <div className=" lg:flex flex-row-reverse max-w-full items-center p-5 sm:p-10 justify-around gap-3">
+    <div className="lg:flex flex-row-reverse max-w-full items-center p-5 sm:p-10 justify-around gap-3">
 
       <div className="m-auto relative">
         <h1 className="m-auto text-2xl font-extrabold md:text-4xl lg:text-5xl">

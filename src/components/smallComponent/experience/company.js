@@ -43,7 +43,7 @@ const Company = () => {
                   {tech_stack.map(({ name, bg_color, text_color }, idk) => (
                     <span
                       key={`tech-stack-${idk}`}
-                      className={`text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-${bg_color}-900 text-${text_color}-400 border border-${text_color}-400`}
+                      className={`text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-${bg_color}-900 text-${text_color}-400 border border-1 border-${text_color}-400`}
                     >
                       {name}
                     </span>
