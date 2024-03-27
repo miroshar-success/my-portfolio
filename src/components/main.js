@@ -12,15 +12,15 @@ const Main = () => {
     }, []);
     return (
         <div>
-            <div className=" bg-pink-500 max-w-7xl h-1 rounded-xl m-auto lg:mb-10 mb-8"></div>
+            <div className="bg-pink-500 max-w-7xl h-1 rounded-xl m-auto lg:mb-10 mb-8"></div>
 
             <div>
-                <div className=" w-full overflow-hidden  content-center grid  ">
-                    <h1 className="title mb-8 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl  text-gray-200  mt-10 ">
+                <div className="w-full overflow-hidden  content-center grid">
+                    <h1 className="title mb-8 m-auto text-3xl font-extrabold md:text-5xl lg:text-6xl text-gray-200 mt-10">
                         {" "}
                         What I Know
                     </h1>
-                    <div className=" max-w-full  m-auto overflow-hidden    ">
+                    <div className="max-w-full m-auto overflow-hidden">
                         {/* marquee 👇 */}
                        <MarqueeSkills skills={skillsets} />
 
