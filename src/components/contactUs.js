@@ -18,7 +18,7 @@ const ContactUs = () => {
         </div>
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className=" max-w-xl m-auto text-center mt-5 max text-slate-600">
-            I built this entire website from scratch, all by myself{" "}
+            Thanks for your visit{" "}
           </div>
           <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
           <div className="flex items-center justify-center">
