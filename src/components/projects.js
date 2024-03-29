@@ -2,13 +2,13 @@ import React from "react";
 import WebsiteProjects from "./smallComponent/websiteProjects";
 
 const Projects = () => {
-    return (
-        <div>
-            <WebsiteProjects />
-            {/* <BlockchainProjects />
+  return (
+    <div>
+      <WebsiteProjects />
+      {/* <BlockchainProjects />
             <DesignProject /> */}
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Projects;

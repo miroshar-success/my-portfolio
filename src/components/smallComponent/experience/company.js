@@ -31,19 +31,23 @@ const Company = () => {
                   {location}
                 </div>
                 <div>
-                  <h3><span className="font-bold text-lg text-gray-400">
-                    Duration :
-                  </span>{" "}</h3>
+                  <h3>
+                    <span className="font-bold text-lg text-gray-400">
+                      Duration :
+                    </span>{" "}
+                  </h3>
                   {duration}
                 </div>
                 <div>
-                  <h3><span className="font-bold text-lg text-gray-400">
-                    Tech Stack :
-                  </span>{" "}</h3>
+                  <h3>
+                    <span className="font-bold text-lg text-gray-400">
+                      Tech Stack :
+                    </span>{" "}
+                  </h3>
                   {tech_stack.map(({ name, bg_color, text_color }, idk) => (
                     <span
                       key={`tech-stack-${idk}`}
-                      className={`text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-${bg_color}-900 text-${text_color}-400 border border-1 border-${text_color}-400`}
+                      className={`text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-400 border border-1 border-blue-400`}
                     >
                       {name}
                     </span>
