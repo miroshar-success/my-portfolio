@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
-import { frontendSkills, backendSkills, apis, someKnowledge } from "./infos/SkillSets";
+import {
+  frontendSkills,
+  backendSkills,
+  apis,
+  someKnowledge,
+} from "./infos/SkillSets";
 import MarqueeSkills from "./smallComponent/marqueeSkills";
 import { skillsets } from "./infos/MarqueeSkills";
 import AOS from "aos";
