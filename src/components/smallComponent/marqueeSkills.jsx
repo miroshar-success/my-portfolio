@@ -49,4 +49,5 @@ const MarqueeSkills = ({ skills, direction = "left" }) => {
     </div>
   );
 };
+
 export default MarqueeSkills;
