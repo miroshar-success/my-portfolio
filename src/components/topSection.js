@@ -16,8 +16,6 @@ const Section = () => {
           </span>
         </h1>
       </div>
-
-      {/* https://wallpaperaccess.com/pixel-art-gif */}
     </div>
   );
 };
