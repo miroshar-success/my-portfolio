@@ -10,7 +10,7 @@ export const projects = [
     description: "I developed a Swimming School Management Website using React, TypeScript, Material UI, Scaffholhub ,Stripe Payment gateway, Express.js, Auth_JWT, and MongoDB, ensuring a robust platform for seamless services and transactions.",
     url: "https://github.com/OskarMast/swimming-school-management",
     img_src: swimming,
-    alt: "swimming school project",
+    alt: "Swimming school project",
   },
   {
     title: "Hotel Room Booking System",
