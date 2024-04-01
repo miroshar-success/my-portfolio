@@ -24,7 +24,6 @@ const Experience = () => {
                 </h1>
             </div>
             <div className="mx-5 sm:mx-20 text-[#9197A1]">
-                {/* <Freelancing /> */}
                 <Company />
             </div>
         </div>
