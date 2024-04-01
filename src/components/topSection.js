@@ -19,5 +19,4 @@ const Section = () => {
     </div>
   );
 };
-
 export default Section;
